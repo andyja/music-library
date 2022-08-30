@@ -4,7 +4,8 @@
   "description": "Manchester Codes Project App to manage a music library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/andyja/music-library#readme",
   "devDependencies": {
-    "eslint": "^8.23.0"
+    "eslint": "^8.23.0",
+    "nodemon": "^2.0.19"
   },
   "dependencies": {
     "express": "^4.18.1"
